@@ -11,7 +11,8 @@
     <h1>Dados do servidor</h1>
 
     <?php 
-        phpinfo();
+        $nome = "Leandro Henrique";
+        echo "<p>o meu nome é $nome</p>";
     ?>
 </body>
 
